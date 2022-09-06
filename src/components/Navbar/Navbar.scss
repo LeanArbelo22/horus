@@ -5,7 +5,6 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border-top: 2px solid #fff;
 
     a {
         display: flex;
@@ -22,7 +21,7 @@
         }
 
         &:hover {
-            font-size: 20.5px;
+            font-size: 1.1em;
         }
     }
 }

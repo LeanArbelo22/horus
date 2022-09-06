@@ -4,11 +4,11 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 3px;
-    border-right: 1px solid #ddd;
+    margin-top: 2px;
+    border-left: 1px solid #ddd;
 
     & div {
-        min-height: 87vh; // !!!!
+        height: 100%; // !!!!
         
         & h5 {
             padding: 7px 0;

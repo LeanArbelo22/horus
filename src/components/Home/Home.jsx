@@ -1,17 +1,11 @@
-import React, {useState} from 'react';
+import React from 'react';
 import MessagesContainer from '../MessagesContainer/MessagesContainer.jsx';
-import Header from '../Header/Header.jsx';
-import Menu from '../Menu/Menu.jsx';
 import Navbar from '../Navbar/Navbar.jsx';
 import './Home.scss';
 
-function Home() {
-  const [openMenu, setOpenMenu] = useState(false);
-  
+function Home() {  
   return (
-    <div className="home">
-        <Header openMenu={openMenu} setOpenMenu={setOpenMenu} />
-        <Menu openMenu={openMenu} setOpenMenu={setOpenMenu} />
+    <div className="home">        
         <Navbar />
         <MessagesContainer />
     </div>
