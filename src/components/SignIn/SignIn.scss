@@ -1,0 +1,16 @@
+.sign-in {
+    padding: 1.5em 1em;
+    background-color: #eee;
+    border-radius: 10px;
+    margin: auto;
+    transition: all .3s ease;
+    cursor: pointer;
+
+    span {
+        user-select: none;
+    }
+
+    &:hover {
+        box-shadow: 0px 4px 10px #77777759;
+    }
+}
